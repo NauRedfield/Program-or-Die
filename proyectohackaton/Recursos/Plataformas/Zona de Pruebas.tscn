@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3om6th38nrg"]
+
+[ext_resource type="PackedScene" uid="uid://cxhbi6yrct5q" path="res://Recursos/Personajes/Personaje Principal.tscn" id="2_kqok4"]
+
+[node name="Prueba movimiento" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_kqok4")]
+position = Vector2(212, 175)
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
